@@ -2,13 +2,7 @@
 
 ## Intro
 
-This repository contains the supplementary material for the Full Stack Machine Learning Course (e.g. Digethic Data Scientist / AI-Engineer).
-
-All notebooks under `/notepads` are structured and can be identified via the folder number and notebook code. All notebooks correspond to the slides and videos produces for this course.
-
-![image](https://user-images.githubusercontent.com/29402504/137859990-054ce9a4-f2d2-4054-8d25-faae4a466c5f.png)
-
-E.g. this identifier referes to folder 2 and notebook with code EDA.
+This repository contains the source code and data for the final project of the EN ISO / IEC 17024- certification of Noemi Schweikle.  
 
 ## Setup
 
