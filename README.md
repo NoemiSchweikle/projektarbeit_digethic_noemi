@@ -2,24 +2,23 @@
 
 ## Intro
 
-This repository contains the source code and data for the final project of the EN ISO / IEC 17024- certification of Noemi Schweikle.  
+Dieses Repository beinhaltet den Datensatz und Source Code für meine Abschlussarbeit im Rahmen der  EN ISO / IEC 17024 Zertifizierung zum AI Engineer. 
+Aller Code befindet sich im Dokument "projekt.ipynb" im Ordner "src".
+
 
 ## Setup
+Im Folgenden finden Sie die Schritte für's Setup entweder auf Linux, Mac oder Windows
 
 ### Linux and Mac Users
 
-- run the setup script `./setup.sh` or `sh setup.sh`
+- Folgendes setup script ausführen `./setup.sh` bzw. `sh setup.sh`
 
 ### Windows Users
 
-- run the setup script `.\setup.ps1`
-- if running the script does not work due to access rights, try following command in your terminal: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+- Folgendes setup script ausführen `.\setup.ps1`
 
-## Development
+## Aktivieren der virtuellen Umgebung
 
-- Mac/Linux: activate python environment: `source .venv/bin/activate`
-- Windows: activate python environment: `.\.venv\Scripts\Activate.ps1`
-- run python script: `python <filename.py> `, e.g. `python train.py`
-- install new dependency: `pip install sklearn`
-- save current installed dependencies back to requirements.txt: `pip freeze > requirements.txt`
-- to start Jupyter lab run `jupyter lab --ip=127.0.0.1 --port=8888`
+- Mac/Linux: python Umgebung ausführen: `source .venv/bin/activate`
+- Windows: python Umgebung ausführen: `.\.venv\Scripts\Activate.ps1`
+- um das Jupyter lab auszuführen, folgenden Code eingeben `jupyter lab --ip=127.0.0.1 --port=8888`
